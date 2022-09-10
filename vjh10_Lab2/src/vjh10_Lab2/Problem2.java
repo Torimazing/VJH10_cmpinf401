@@ -1,4 +1,4 @@
-package vjh10_Lab1;
+package vjh10_Lab2;
 
 import javax.swing.JOptionPane;
 
