@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\VJH10\Documents\GitHub\VJH10_cmpinf401\.metadata\.plugins\org.eclipse.jdt.core
-3037730555.index
-1865797976.index
-3480583845.index
