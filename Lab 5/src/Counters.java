@@ -1,13 +1,13 @@
 
 public class Counters {
-	private int count;
+	private float count;
 	public void addCount() {
-		count = count++;
+		count++;
 	}
 	public void reset() {
 		count = 0;
 	}
-	public int getCount() {
+	public float getCount() {
 		return count;
 	}
 }
