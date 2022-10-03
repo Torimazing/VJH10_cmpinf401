@@ -4,9 +4,15 @@ import javax.swing.JOptionPane;
 public class Rolling {
 	public static void main(String[] args) {
 		Random newDice = new Random();
-		String userInput = JOptionPane.showInputDialog("Please input a number of rolls");
-		int roll = Integer.parseInt(userInput);
-		RollDice(roll, newDice);
+		Boolean again = true;
+		do {String userInput = JOptionPane.showInputDialog("Please input a number of rolls");
+			int roll = Integer.parseInt(userInput);
+			RollDice(roll, newDice);
+			String againInput = JOptionPane.showInputDialog("Do again? (y/n)");
+			if (againInput.equals("n")) {
+				again = false;
+			}
+		} while (again == true);
 	}
 	public static void RollDice(int numRoll, Random diceValue) {
 		

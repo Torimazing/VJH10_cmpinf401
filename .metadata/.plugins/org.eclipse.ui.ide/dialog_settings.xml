@@ -12,6 +12,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\VJH10\Documents\GitHub\VJH10_cmpinf401"/>
 			<item value="C:\Users\victo\OneDrive\Documents\GitHub\VJH10_cmpinf401"/>
 			<item value="C:\Users\VJH10\Documents\GitHub\VJH10_cmpinf401\Lab 3"/>
 		</list>
