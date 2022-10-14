@@ -1,5 +1,9 @@
 package vjh10_MenuManager;
-
+/**
+ * Class MenuTest
+ * author : Tori (VJH10)
+ * created: 10/13/2022
+ */
 public class MenuTest {
 		public static void main(String[] args) {
 		//every cal value is divisible by 9 for the purpose of simple debugging
@@ -16,7 +20,9 @@ public class MenuTest {
 				+ "with a sprinkling of bruleed maple sugar", 450);
 		Menu burgerJoint = new Menu("Burger Joint", burger, fries);
 		Menu breakfast = new Menu("Fall Breakfast", pancake, sausage, fruit, brulee);
+		
 		System.out.println(breakfast.description());
 		System.out.println(burgerJoint.totalCalories());
+		
 		}
 }
