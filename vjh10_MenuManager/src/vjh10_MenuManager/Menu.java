@@ -4,7 +4,7 @@ package vjh10_MenuManager;
  * author : Tori (VJH10)
  * created: 10/13/2022
  */
-
+	
 public class Menu {
 
 	private String name;
@@ -17,17 +17,28 @@ public class Menu {
 		this.name = name;
 	}
 	public Menu(String title, Entree entree, Side side) {
+		this.name = title;
 		this.entree = entree;
 		this.side = side;
 	}
 	public Menu(String title, Entree entree, Side side, Salad salad, Dessert dessert) {
+		this.name = title;
 		this.entree = entree;
 		this.side = side;
 		this.salad = salad;
 		this.dessert = dessert;
 	}
 	public int totalCalories() {
-		int calories = entree.GetCal() + side.GetCal() + salad.GetCal() + dessert.GetCal();
+		int calories = 0;
+		if (!(entree == null)) {
+			calories = calories + entree.GetCal();
+		}if (!(side == null)) {
+			calories = calories + side.GetCal();
+		}if(!(salad == null)) {
+			calories = calories + salad.GetCal();
+		}if(!(dessert == null)) {
+			calories = calories + dessert.GetCal();
+		}
 		return calories;
 	}
 	public String description() {
