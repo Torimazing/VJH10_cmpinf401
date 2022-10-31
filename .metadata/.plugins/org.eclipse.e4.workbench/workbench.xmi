@@ -99,7 +99,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_PbPcXjexEe2_k-TOQts0nQ" containerData="7500" selectedElement="_PbPcZjexEe2_k-TOQts0nQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_PbPcXjexEe2_k-TOQts0nQ" containerData="7500" selectedElement="_PbPcXzexEe2_k-TOQts0nQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_PbPcXzexEe2_k-TOQts0nQ" containerData="6199" selectedElement="_PbPcYDexEe2_k-TOQts0nQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_PbPcYDexEe2_k-TOQts0nQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_PbR47TexEe2_k-TOQts0nQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_PbPcYTexEe2_k-TOQts0nQ" elementId="right" containerData="2500" selectedElement="_PbPcYjexEe2_k-TOQts0nQ">
@@ -351,7 +351,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_LJyeEFhGEe2gT-dl7ocjlg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ArrayEval.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ArrayEval.java&quot; partName=&quot;ArrayEval.java&quot; title=&quot;ArrayEval.java&quot; tooltip=&quot;Lab 6/src/ArrayEval.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Lab 6/src/ArrayEval.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;570&quot; selectionTopPixel=&quot;40&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ArrayEval.java&quot; partName=&quot;ArrayEval.java&quot; title=&quot;ArrayEval.java&quot; tooltip=&quot;Lab 6/src/ArrayEval.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Lab 6/src/ArrayEval.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;761&quot; selectionTopPixel=&quot;629&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -359,7 +359,7 @@
           <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_91F4YFhGEe2gT-dl7ocjlg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="UnitConverter.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UnitConverter.java&quot; partName=&quot;UnitConverter.java&quot; title=&quot;UnitConverter.java&quot; tooltip=&quot;Lab 3/src/UnitConverter.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Lab 3/src/UnitConverter.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;65&quot; selectionOffset=&quot;282&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UnitConverter.java&quot; partName=&quot;UnitConverter.java&quot; title=&quot;UnitConverter.java&quot; tooltip=&quot;Lab 3/src/UnitConverter.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Lab 3/src/UnitConverter.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;45&quot; selectionOffset=&quot;1951&quot; selectionTopPixel=&quot;689&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -607,7 +607,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PbUU8DexEe2_k-TOQts0nQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9CVbMFhFEe2gT-dl7ocjlg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_PbdfdTexEe2_k-TOQts0nQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZisR4Fk5Ee2uH7nyWz-0mA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_PbdfdTexEe2_k-TOQts0nQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PbUU_TexEe2_k-TOQts0nQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -638,7 +638,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PbUVQjexEe2_k-TOQts0nQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9CYegFhFEe2gT-dl7ocjlg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_Pbde9zexEe2_k-TOQts0nQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ZivVN1k5Ee2uH7nyWz-0mA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Pbde9zexEe2_k-TOQts0nQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PbUVTjexEe2_k-TOQts0nQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

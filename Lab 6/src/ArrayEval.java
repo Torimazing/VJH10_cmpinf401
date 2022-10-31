@@ -5,14 +5,17 @@ import javax.swing.JOptionPane;
 
 public class ArrayEval {
 	public static void main(String[] args) {
-		String userInput = JOptionPane.showInputDialog("Please enter a number");
+		String userInput = JOptionPane.showInputDialog("What size array would you like?");
 		int arrLen = Integer.parseInt(userInput);
 		double[] userArray = new double[arrLen];
 		Random rand = new Random();
 		for (int i=0; i<userArray.length; i++) {
 			userArray[i] = rand.nextDouble();
 		}
-		System.out.print(Arrays.toString(userArray));
+		// System.out.print(Arrays.toString(userArray));
+		String outputAnalysis = "This Array's Stats are: \n" + "Minimum: " + min(userArray) + "\n"
+				+ "Maximum: " + max(userArray)+ "\n" + "Total: " + sum(userArray) + "\n" + "Average: " + ave(userArray);
+		JOptionPane.showMessageDialog(null, outputAnalysis);
 
 	}
 	public static double max(double [] data) {
