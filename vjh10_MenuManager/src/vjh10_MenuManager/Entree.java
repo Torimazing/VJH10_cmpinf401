@@ -16,11 +16,6 @@ public class Entree {
 		description = desc;
 		calories = cal;
 	}
-	public Entree() {
-		name = null;
-		description = null;
-		calories = 0;
-	}
 	public String GetName() {
 		return name;
 	}
