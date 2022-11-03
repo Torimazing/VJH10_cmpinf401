@@ -1,25 +1,17 @@
 package vjh10_MenuManager;
 /**
- * Class Entree
- * author : Tori (VJH10)
+ * Class Salad
+	 * author : Tori (VJH10)
  * created: 10/13/2022
  */
-
-public class Entree {
-
+public class Salad {
 	private String name;
 	private String description;
 	private int calories;
-
-	public Entree(String type, String desc, int cal) {
-		name = type;
+	public Salad(String title, String desc, int cal) {
+		name = title;
 		description = desc;
 		calories = cal;
-	}
-	public Entree() {
-		name = null;
-		description = null;
-		calories = 0;
 	}
 	public String GetName() {
 		return name;
@@ -39,5 +31,6 @@ public class Entree {
 	public int GetCal() {
 		return calories;
 	}
+
 
 }
