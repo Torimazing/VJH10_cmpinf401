@@ -16,23 +16,23 @@ public class Entree {
 		description = desc;
 		calories = cal;
 	}
-	public String GetName() {
-		return name;
-	}
-	public void SetName(String title) {
-		name = title;
+	public int GetCal() {
+		return calories;
 	}
 	public String GetDesc() {
 		return description;
 	}
-	public void SetDesc(String desc) {
-		description = desc;
+	public String GetName() {
+		return name;
 	}
 	public void SetCal(int cal) {
 		calories = cal;
 	}
-	public int GetCal() {
-		return calories;
+	public void SetDesc(String desc) {
+		description = desc;
+	}
+	public void SetName(String title) {
+		name = title;
 	}
 
 }

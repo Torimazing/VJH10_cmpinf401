@@ -28,19 +28,6 @@ public class Menu {
 		this.salad = salad;
 		this.dessert = dessert;
 	}
-	public int totalCalories() {
-		int calories = 0;
-		if (!(entree == null)) {
-			calories = calories + entree.GetCal();
-		}if (!(side == null)) {
-			calories = calories + side.GetCal();
-		}if(!(salad == null)) {
-			calories = calories + salad.GetCal();
-		}if(!(dessert == null)) {
-			calories = calories + dessert.GetCal();
-		}
-		return calories;
-	}
 	public String description() {
 		String menu = this.name + "\n";
 		// Entree time
@@ -72,6 +59,19 @@ public class Menu {
 			menu = menu + dessert.GetName() + "- " + dessert.GetDesc() + '\n';
 		}
 		return menu;
+	}
+	public int totalCalories() {
+		int calories = 0;
+		if (!(entree == null)) {
+			calories = calories + entree.GetCal();
+		}if (!(side == null)) {
+			calories = calories + side.GetCal();
+		}if(!(salad == null)) {
+			calories = calories + salad.GetCal();
+		}if(!(dessert == null)) {
+			calories = calories + dessert.GetCal();
+		}
+		return calories;
 	}
 
 
