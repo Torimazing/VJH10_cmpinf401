@@ -8,6 +8,8 @@
 	<item key="TypeHierarchyViewPart.orientation" value="3"/>
 	<item key="filters_last_used" value="filter_imports;"/>
 	<item key="SortMembers.sort_all" value="false"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\Users\victo\OneDrive\Documents\GitHub\VJH10_cmpinf401"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\victo\Downloads\openjfx-19_windows-x64_bin-sdk\javafx-sdk-19\lib"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -28,7 +30,7 @@
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
 	</section>
 	<section name="NewClassWizardPage">
-		<item key="create_constructor" value="true"/>
+		<item key="create_constructor" value="false"/>
 		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="RefactoringWizard.preview">
@@ -44,7 +46,7 @@
 		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item key="ShowStatusLine" value="true"/>
@@ -73,7 +75,7 @@
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="632"/>
-		<item key="DIALOG_Y_ORIGIN" value="-16"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
 		<item key="DIALOG_WIDTH" value="678"/>
 		<item key="DIALOG_HEIGHT" value="889"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

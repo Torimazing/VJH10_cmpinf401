@@ -12,6 +12,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\victo\Downloads\GUIExamples1"/>
+			<item value="C:\Users\victo\OneDrive\Documents\GitHub\VJH10_cmpinf401\vjh10_MenuManager_v3\data"/>
 			<item value="C:\Users\VJH10\Documents\GitHub\VJH10_cmpinf401"/>
 			<item value="C:\Users\victo\OneDrive\Documents\GitHub\VJH10_cmpinf401"/>
 			<item value="C:\Users\VJH10\Documents\GitHub\VJH10_cmpinf401\Lab 3"/>
@@ -39,10 +41,10 @@
 		</list>
 	</section>
 	<section name="SaveAsDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="789"/>
-		<item key="DIALOG_Y_ORIGIN" value="362"/>
+		<item key="DIALOG_X_ORIGIN" value="572"/>
+		<item key="DIALOG_Y_ORIGIN" value="290"/>
 		<item key="DIALOG_WIDTH" value="700"/>
 		<item key="DIALOG_HEIGHT" value="642"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
 	</section>
 </section>
