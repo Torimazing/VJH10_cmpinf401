@@ -116,6 +116,38 @@ public class MenuManager {
 		System.out.println(max.description());
 		}
 
+	public ArrayList<Entree> getEntrees() {
+		return entrees;
+	}
+
+	public void setEntrees(ArrayList<Entree> entrees) {
+		this.entrees = entrees;
+	}
+
+	public ArrayList<Side> getSides() {
+		return sides;
+	}
+
+	public void setSides(ArrayList<Side> sides) {
+		this.sides = sides;
+	}
+
+	public ArrayList<Salad> getSalads() {
+		return salads;
+	}
+
+	public void setSalads(ArrayList<Salad> salads) {
+		this.salads = salads;
+	}
+
+	public ArrayList<Dessert> getDesserts() {
+		return desserts;
+	}
+
+	public void setDesserts(ArrayList<Dessert> desserts) {
+		this.desserts = desserts;
+	}
+
 	}
 	
 
