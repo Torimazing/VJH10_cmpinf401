@@ -113,7 +113,13 @@ public class Menu {
 	public void setDessert(MenuItem item) {
 		this.dessert = (Dessert) item;
 	}
-	
+	public double totalPrice() {
+		double price = entree.getPrice();
+		price += side.getPrice();
+		price += salad.getPrice();
+		price += dessert.getPrice();
+		return price;
+		}
 
 
 }

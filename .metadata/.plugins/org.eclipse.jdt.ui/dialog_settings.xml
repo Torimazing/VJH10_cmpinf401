@@ -28,6 +28,7 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+		<item key="SortMembersMessageDialog.optionalDialog.id" value="false"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
@@ -64,7 +65,7 @@
 		<item key="GenerateJavadoc" value="false"/>
 	</section>
 	<section name="SourceActionDialog.methods">
-		<item key="VisibilityModifier" value="1"/>
+		<item key="VisibilityModifier" value="2"/>
 		<item key="FinalModifier" value="false"/>
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>
